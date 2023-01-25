@@ -1,0 +1,71 @@
+.butLink:hover{
+    cursor: pointer;
+}
+
+
+
+p{
+    color: brown; /* color- metinsel ifadelerin rengini değiştirir */
+}
+
+.takim{
+
+}
+.mavi-yazi 
+    font-size: 25px ;
+color: blue;
+
+
+#list{
+    list-style-type: none; /*noktalar gider,*/
+    font-size: 35px;
+    color:#393939 ;
+}
+
+
+.kutu1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    float: left
+}
+.kutu2{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    float: left;
+} 
+.kutu3{
+    background-color: #393939;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.kutu4{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.kutu5{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.kutu6{
+   background-color: deeppink;
+   clear: both;
+   
+    
+}
+
+ul{
+    list-style-type: 
+    none;
+}
+
+li{
+    float: left;
+}
+

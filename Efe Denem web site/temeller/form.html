@@ -1,0 +1,61 @@
+<!--enctype="multipart/form-data">  -->
+<script src="https://cdn.ckeditor.com/4.19.1/full/ckeditor.js"></script>
+
+
+
+
+<form action="" method="post" enctype="multipart/form-data">
+
+
+<label for="isim">Adınız Soyadınız</label>    
+ <input type="text" name="adiniz" id="isim" required> <br>  <!--  'required' alanı zorunlu yapmamıza yardımcı olur  -->
+
+
+<input type="email" name="eposta" value="E-posta Adresiniz"> <br>
+<input type="tel" name="" placeholder="Telefon Numaranız"> <br> <br><br><br><br><br>
+
+<textarea name="mesaj" id="" cols="80" rows="10">Mesajınız</textarea> 
+<script>
+    CKEDITOR.replace( 'mesaj' );
+</script> <br>
+
+<label for="Konu">Konu</label>
+
+<select name="Konu" id="Konu">
+    <option value="">Seçiniz</option>
+    <option value="Bilgitalebi">Bilgi Talebi</option>
+    <option value="Sikayet">Şikayet</option>
+    <option value="Oneri">Öneri</option>
+    <option value="Teknikdestek">Teknik Destek</option>
+
+</select>
+<br><br>
+
+<label for="dosya">Cv yükleyin</label>
+<input type="file" name="dosya" id="dosya"> <br>
+
+<input type="password" name="sifre"  placeholder="Sifreniz">
+<input type="date" name="tarih" id="tarih">
+<input type="number" name="adet" id="adet" value="1">
+<input type="color" name="" id="">
+
+
+<input type="checkbox" name="onay" id="onay"> <label for="onay">k.v.k.k sözleşmesini onaylıyorum</label>
+<label for="cinsiyet">cinsiyetiniz</label>
+<input type="radio" name="cinsiyet" > Erkek
+<input type="radio" name="cinsiyet" > Kadın
+<!-- bitirme projesinde radioı yapısı isteniyor -->
+
+
+
+<input type="submit" value="gönder">
+<button type="submit">Gönder 2</button>
+
+
+
+
+
+
+
+
+</form>

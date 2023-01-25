@@ -1,0 +1,180 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.w-65 {
+    width: 65%;
+}
+
+#footer .lead {
+    font-weight: 400;
+}
+
+#footer li{
+    padding-left: 0;
+    background-color: transparent;
+}
+
+#footer a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.list-group-item{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.acikMavi{
+    background-color: #007bffa3;
+}
+
+.bi{
+    font-size:24px;
+}
+
+#hizmetler h2{
+    font-size:27px;
+}
+
+.slogan{
+    font-size:24px;
+    font-weight: 300;
+}
+
+/* py-11{padding:110px 0px} veya {padding:110px 0px 110px 0px} */
+.py-11{
+    padding-top:110px;
+    padding-bottom:110px;
+}
+
+#proBanner{
+    background-image: url('../img/projeler-banner-1920x300.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; paralax efekt */ 
+}
+
+#blogList .col-md-8 h2{
+    font-size:26px;
+    font-weight: 400;
+}
+
+#blogList .col-md-8 a{
+    text-decoration: none;
+    color:#393939;
+}
+
+#blogListBanner, #blogMakale{
+    background-image: url('../img/blog-banner-1500x640.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+aside h3{
+    font-size:28px !important;
+    font-weight: 400;
+}
+
+/* .form-control:focus{
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%);
+} */
+
+#makaleIcerik .bi-star-fill{
+    font-size:18px;
+    color:#f5f535;
+}
+
+#dijitalPazarlamaBanner{
+    background-image: url('../img/gorsel3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; paralax efekt */ 
+}
+
+#webTasarimBanner{
+    background-image: url('../img/gorsel1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; paralax efekt */ 
+}
+
+#grafikTasarimBanner{
+    background-image: url('../img/gorsel2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; paralax efekt */ 
+}
+
+#iletisimBanner{
+    background-image: url('../img/iletisim-banner-1920x365.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; paralax efekt */ 
+}
+
+.proje{
+    margin: 30px 0px;
+}
+
+
+
+@media(max-width:768px){
+    #header .col-md-6, #bottomFooter .col-md-6{
+        text-align: center !important;
+    }
+    .orta{
+        margin:25px 0px; 
+        /* 
+        margin:25px 0px 25px 0px 
+        veya
+        margin-top:25px;
+        margin-bottom:25px;
+        */
+    }
+    #content img{
+        width: 50%;
+    }
+    #content .my-auto{
+        text-align: center !important;
+        margin-bottom:20px !important;
+    }
+    #content h1{
+        font-size: 29px;
+    }
+    #content .col-md-6{
+        text-align: justify;
+    }
+    #proBanner{
+        background-image: url('../img/projeler-banner-277x277.webp');
+    }
+    .proje{
+        margin:0px;
+    }
+    #projeler img{
+        margin:10px 0px;
+    }
+    #iletisimContent .col-md-3{
+        width: 50%;
+    }
+    #iletisimContent img{
+        width: 32px;
+        margin-bottom: 10px !important;
+    }
+    #iletisimContent strong{
+        font-weight: 400;
+       
+    }
+}
+
+@media(min-width:769px){
+    #indexBanner a:nth-child(4){
+        display: none !important;
+    }
+}
+
+
+
+
+
+

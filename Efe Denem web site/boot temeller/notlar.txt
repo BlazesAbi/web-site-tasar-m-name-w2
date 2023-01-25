@@ -1,0 +1,28 @@
+1-container-fluid-> ilgili section full width yapar
+2-container-> ilgişli section boxed ölçü yapar
+3-renkler
+     - primary -> mavi
+     - secondary -> gri
+     - success -> yeşil
+     - danger -> kırmızı
+     - warning -> sarı
+     - info -> turkuaz
+     - light -> çok açık gri (beyaza yakın)
+     - dark -> çok koyu gri (siyaha yakın)
+     - white -> beyaz
+     - transparent -> transparan (opacity değeri 0 dır)
+     
+
+renklerin başına gelebilecek ekler
+      bg -> background (ör: bg-primary)     
+      text -> metinsel ifadeler (ör: text-danger)
+      btn -> butonlar (ör: btn-warning)
+
+4- konumlandımalar
+       text-left -> nesneleri sol tarafa yaslar (divler hariç)
+       text-center -> nesneleri ortalar (divler hariç)
+       text-right -> nesneleri sağ tarafa yaslar (divler hariç)
+       ml-auto -> divi sağ tarafa yaslar 
+       my-auto -> divi dikey eksende ortalar
+       mx-auto -> divi yatay eksende ortalar
+

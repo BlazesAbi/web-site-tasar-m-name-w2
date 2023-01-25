@@ -1,0 +1,48 @@
+css notlar
+
+1-inline yöntem -> div style'css özeillikleri buraya gelecek'>bu bir kaspsayıcı div
+herbir css özelliğinden sonra noktalı virgül (;) kullanılmaılıdır SADECE o html kod satırına etki eder. !important değeri vardır
+ikinci öncelikli olarak tercih edilebilir
+external yöntem (harici dosya)
+* farklı bir css dosyası içinde yazılır 
+* bu css dosyası html dosyalarının içine çağırılır(import edilir)
+* import edilmesi sebebiyle css kodu 1 kere yazılır ve class(.), id(#) ve tag biçimlendimeleriyle tüm siteye tek bir noktadan stilleme yapılabilir
+* external dosyayı çağırabilmek için kod satırının head etiketleri arasına yazılması gerekiyor(tavsiye tittle'un üstünde olsun)
+* p
+    color: brown;
+}
+
+
+
+3- internal yöntem* aynı html dosyası içinde head içinde açılan style etiketleri 
+arasında aynı external syntax yapısı ile yazılırhead etiketleri arasında oldugu için site yüklenme hızını olumsuz etkiler
+* sadece o sayfa içinde çalışır
+*  class(.), id(#) ve tag biçimlendimeleriyle tüm siteye tek bir noktadan stilleme yapılabilir
+
+4- ; her özeilliğin sonuna konulmalıdır
+
+5-{} süslü parantezler içinde yazılmalı
+
+6- türkçe karakterler kullanılabilir ama kulanmayın
+
+7-css isimler sayı ile başlamaz ama sayı ile sonlabilir
+
+8-case sensitive (büyük küçük harf duyarlılığı vardır)
+
+9-. class için kullanığında ismin başına ekstra nokta konulamaz
+
+10-font-size metiinlerin puntosunu düzenler
+
+11-color>- metinlerin rengünü düzenler
+
+12-list-style-type ->li etiketi medeleme simgelerini düzenler
+
+13- nesnelerin yatay ölçüsünü düzenler
+
+14- nesnelerin yüksekliğini düzenler
+
+15- float -> left,center,right olarak 3 değer alır. özellikle divleri yantana getirmek için kullanılır 
+
+16- background-color nesnelerin arkasına duvar kağıdı rengi atamsı yapar
+
+17-
